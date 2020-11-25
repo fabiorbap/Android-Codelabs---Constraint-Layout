@@ -15,3 +15,5 @@ What I learned:
     - Spread inside: views in the extremities are aligned to the parent, and the views between them are spaced equally
     - Packed: views don't have space between themselves, and the space the pack and the parent is equal
     - Weighed: each view will fill a space equivalent to its weight
+- With the baseline attribute, it's easier to align the texts of different views, even if their text size is different from each other
+- Baseline constraint e bottom constraint are mutually exclusive
