@@ -16,4 +16,5 @@ What I learned:
     - Packed: views don't have space between themselves, and the space the pack and the parent is equal
     - Weighed: each view will fill a space equivalent to its weight
 - With the baseline attribute, it's easier to align the texts of different views, even if their text size is different from each other
-- Baseline constraint e bottom constraint are mutually exclusive
+- Baseline constraint and bottom constraint are mutually exclusive
+- It is not necessary to set all constraints of all views. Sometimes you can associate some constraints of some views to another that specifies most of the constraints in the layout. I.e. the 3 chained buttons, only the middle button had most of the constraints, the rest of the buttons just followed him.
